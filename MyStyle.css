@@ -1,0 +1,71 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+}
+.grid-item {
+
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.ProfileImg{
+    border-radius: 50%;
+    border: 3px solid darkslategray;
+    height: 90px;
+    width: 90px;
+    float: left;
+
+}
+.MainImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 500px;
+    border: 3px solid darkslategray;
+
+}
+.icons{
+    margin-left: 350px;
+    margin-top: 30px
+}
+button{
+    border-radius: 5%;
+    color: white;
+    background: linear-gradient(to right, dodgerblue 40%, black 100%);
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 30px;
+}
+.ImgAndDate
+{
+    float: left;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    .col-s-1 {width: 100%;}
+}
+@media only screen and (max-width: 992px) {
+    /* For tablets: */
+    .col-1 {width: 50%;}
+    .col-2 {width: 100%;}
+}
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .col-1 {width: 25%;}
+    .col-2 {width: 50%;}
+    .col-3 {width: 75%;}
+    .col-4 {width: 100%;}
+}
+
+
+
